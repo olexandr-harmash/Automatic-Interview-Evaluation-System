@@ -1,0 +1,11 @@
+﻿global using Npgsql;
+global using AutomaticInterviewEvaluationSystem.Evaluation.API.Services;
+global using AutomaticInterviewEvaluationSystem.Shared.MigrateDbContextExtensions;
+global using AutomaticInterviewEvaluationSystem.EventBusRabbitMQ;
+global using AutomaticInterviewEvaluationSystem.EventBus.Extensions;
+global using AutomaticInterviewEvaluationSystem.Evaluation.API.IntegrationEvents.EventHandlers;
+global using AutomaticInterviewEvaluationSystem.EventBus.Abstractions;
+global using AutomaticInterviewEvaluationSystem.Evaluation.API.Models;
+global using AutomaticInterviewEvaluationSystem.Evaluation.API.Infrastructure;
+global using AutomaticInterviewEvaluationSystem.Evaluation.API.IntegrationEvents;
+global using AutomaticInterviewEvaluationSystem.Evaluation.API.IntegrationEvents.Events;
